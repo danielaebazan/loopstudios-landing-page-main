@@ -6,3 +6,30 @@
    .attribution a {
        color: hsl(228, 45%, 44%);
    }
+
+   .header-section {
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-size:cover;
+    height: 600px;
+   }
+
+   .menu {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .menu ul {
+       list-style: none;
+       padding: 0;
+       display: flex;
+   }
+
+   .menu li {
+       margin: 0 15px;
+   }
+
+   .menu a {
+       text-decoration: none;
+       color: white;
+   }
