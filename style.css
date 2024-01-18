@@ -1,3 +1,13 @@
+    @font-face {
+        font-family: 'Alata';
+        src: local('Alata'), url(https://fonts.gstatic.com/s/alata/v8/PbytFmztEwbI8QqkRr-fMHnOSuOUU3o.woff2) format('woff2');
+    }
+
+        @font-face {
+            font-family: 'Josefin Sans';
+            src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v18/Qw3aZQNVED7rKGKxtqIqX5Ecbnx9UEePDQ.woff2) format('woff2');
+        }
+   
    .attribution {
        font-size: 11px;
        text-align: center;
@@ -8,9 +18,21 @@
    }
 
    .header-section {
-    background-image: url(./images/desktop/image-hero.jpg);
-    background-size:cover;
-    height: 600px;
+       background-image: url(./images/desktop/image-hero.jpg);
+       background-size: cover;
+       height: 600px;
+       margin: 0;
+       padding: 0;
+   }
+
+
+   .navigation {
+       font-family: 'Alata', sans-serif;
+       font-size: 15px;
+       display: flex;
+       justify-content: space-between;
+       margin: 0;
+       padding: 50px 170px;
    }
 
    .menu {
@@ -32,4 +54,91 @@
    .menu a {
        text-decoration: none;
        color: white;
+   }
+
+   .header-title {
+       padding: 20px;
+       border: 2px solid white;
+       width: 600px;
+       height: 240px;
+       margin-left: 170px;
+       margin-top: 70px;
+   }
+
+   .header-title h1 {
+       color: white;
+       font-family: 'Alata', sans-serif;
+       font-size: 70px;
+       font-weight: lighter;
+       margin: auto 0;
+   }
+
+   .main-section {
+    background-color:hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 130px 170px;
+    
+   }
+
+   .main-content {
+    font-family: 'Alata', sans-serif;
+   }
+
+   .main-text {
+    border: 75px solid black;
+    width: 450px;
+    height: 250px;
+   }
+
+   h2 {
+    color: hsl(0, 0%, 41%);
+    font-weight: lighter;
+    font-size: 40px;
+    letter-spacing: 1px;
+   }
+
+   p {
+    color: hsl(0, 0%, 55%);
+    font-size: 13px;
+    line-height: 25px;
+   }
+
+
+   .footer-section {
+    background-color: hsl(0, 0%, 0%);
+   }
+
+   .footer-1 {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .footer-2 {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .menu-footer {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .menu-footer ul {
+       list-style: none;
+       padding: 0;
+       display: flex;
+   }
+
+   .menu-footer li {
+       margin: 0 15px;
+   }
+
+   .menu-footer a {
+       text-decoration: none;
+       color: white;
+   }
+
+   footer {
+    color: hsl(0, 0%, 55%)
    }
