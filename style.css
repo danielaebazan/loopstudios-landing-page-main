@@ -82,7 +82,14 @@
 
    .main-content {
     font-family: 'Alata', sans-serif;
-    height: 590px;
+    height: 650px;
+    max-width: 1440px;
+    width: 100%;
+   }
+
+   #interactive {
+       width: 70%;
+       height: auto;
    }
 
    .main-text {
@@ -91,15 +98,19 @@
     width: 450px;
     height: 250px;
     position: relative;
-    left: 580px;
-    top: -305px;
+    left: 600px;
+    top: -350px;
    }
 
    h2 {
     color: hsl(0, 0%, 0%);
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 48px;
     letter-spacing: 1px;
+   }
+
+   .main-text p {
+    font-size: 15px;
    }
 
    p {
@@ -271,3 +282,18 @@ button:hover {
     color: black;
 }
 
+@media screen and (max-width: 375px) {
+
+    .header-section {
+        background-image: url(./images/mobile/image-hero.jpg);
+        width: 375px;
+        height: 800px;
+        margin: 0;
+        padding: 0;
+        }
+
+    .navigation {
+        width: 375px;
+    }
+
+}
