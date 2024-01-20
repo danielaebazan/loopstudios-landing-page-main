@@ -100,10 +100,10 @@
    }
 
    .header-title {
-       padding: 20px;
+       padding: 30px;
        border: 2px solid white;
        width: 600px;
-       height: 240px;
+       height: 250px;
        margin-left: 170px;
        margin-top: 70px;
    }
@@ -111,7 +111,7 @@
    .header-title h1 {
        color: white;
        font-family: 'Alata', sans-serif;
-       font-size: 65px;
+       font-size: 75px;
        font-weight: lighter;
        margin: auto 0;
    }
