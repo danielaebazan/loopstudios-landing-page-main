@@ -20,7 +20,7 @@
    .header-section {
        background-image: url(./images/desktop/image-hero.jpg);
        background-size: cover;
-       height: 600px;
+       height: 625px;
        margin: 0;
        padding: 0;
    }
@@ -103,7 +103,7 @@
        padding: 30px;
        border: 2px solid white;
        width: 600px;
-       height: 250px;
+       height: 300px;
        margin-left: 170px;
        margin-top: 70px;
    }
